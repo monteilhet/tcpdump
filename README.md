@@ -87,7 +87,7 @@ sudo tcpdump -r capture.pcap -n
 
 Keyword | Description
 -------|-------------
-`[src|dst] host <host>` | Matches a host as the IP source, destination, or either
+`[src&#124;dst] host <host>` | Matches a host as the IP source, destination, or either
 `[tcp|udp] [src|dst] port <port>` | Matches TCP or UDP packets sent to/from port
 `[src|dst] net <network>/<len>` | Matches packets to or from an endpoint residing in network
 `(ether|ip|ip6) proto <protocol>` | Matches an Ethernet, IPv4, or IPv6 protocol
