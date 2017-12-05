@@ -91,6 +91,5 @@ Keyword | Description
 `[tcp|udp] [src|dst] port <port>` | Matches TCP or UDP packets sent to/from port
 `[src|dst] net <network>/<len>` | Matches packets to or from an endpoint residing in network
 `(ether|ip|ip6) proto <protocol>` | Matches an Ethernet, IPv4, or IPv6 protocol
-`ether [src|dst] host <ehost> ` | Matches a host as the Ethernet source, destination,
- or either
+`ether [src|dst] host <ehost> ` | Matches a host as the Ethernet source, destination, or either
 `(ether|ip|ip6) proto <protocol>` | Matches an Ethernet, IPv4, or IPv6 protocol
